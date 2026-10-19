@@ -1,0 +1,56 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "storeFile": "signature/MemoFlowECC.p12",
+          "storePassword": "0000003259d370331dd11e4737600eca04aed0d84eb1ae05a19e546f13a8275edf497654e7d0bd89c021396097e1feb8c7a5bc9dc5a63b66d18701d145389fb716bafdf69edd6af3d9a38720e1f52054230872b71c57dca5f87e8f534336433b2c674277f8f6ac55",
+          "keyAlias": "memoflowkey",
+          "keyPassword": "0000003259d370331dd11e4737600eca04aed0d84eb1ae05a19e546f13a8275edf497654e7d0bd89c021396097e1feb8c7a5bc9dc5a63b66d18701d145389fb716bafdf69edd6af3d9a38720e1f52054230872b71c57dca5f87e8f534336433b2c674277f8f6ac55",
+          "certpath": "signature/appchain.cer",
+          "profile": "signature/MemoFlow.p7b",
+          "signAlg": "SHA256withECDSA"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "targetSdkVersion": "6.1.1(24)",
+        "compatibleSdkVersion": "6.1.1(24)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "MemoFlow 备忘录应用"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "MemoFlow 备忘录"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "MemoFlow"
+    },
+    {
+      "name": "permission_distributed_datasync_reason",
+      "value": "用于跨设备同步备忘录和购物清单数据"
+    },
+    {
+      "name": "permission_approximately_location_reason",
+      "value": "用于场景感知，根据位置自动推荐相关备忘"
+    },
+    {
+      "name": "permission_location_reason",
+      "value": "用于精准场景感知，根据位置自动推荐相关备忘"
+    },
+    {
+      "name": "permission_background_running_reason",
+      "value": "用于后台保持场景感知服务运行"
+    },
+    {
+      "name": "permission_microphone_reason",
+      "value": "用于录制会议音频并生成会议纪要"
+    },
+    {
+      "name": "permission_notification_reason",
+      "value": "用于接收新会议纪要的本地通知提醒"
+    },
+    {
+      "name": "widget_card_desc",
+      "value": "MemoFlow 场景卡片"
+    }
+  ]
+}
